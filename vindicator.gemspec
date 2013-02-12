@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["john@johnathanludwig.com"]
   gem.description   = %q{VINdicator is a small gem that will allow you to verify that a VIN is valid based on its check digit.}
   gem.summary       = %q{VINdicator is a small gem that will allow you to verify that a VIN is valid based on its check digit.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/JohnathanLudwig/vindicator"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
